@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CF501471FBC7E3D0099E340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF501461FBC7E3D0099E340 /* AppDelegate.swift */; };
+		7CF501491FBC7E3D0099E340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF501481FBC7E3D0099E340 /* ViewController.swift */; };
+		7CF5014C1FBC7E3D0099E340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF5014A1FBC7E3D0099E340 /* Main.storyboard */; };
+		7CF5014E1FBC7E3E0099E340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF5014D1FBC7E3E0099E340 /* Assets.xcassets */; };
+		7CF501511FBC7E3E0099E340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF5014F1FBC7E3E0099E340 /* LaunchScreen.storyboard */; };
+		7CF5015C1FBC7E3F0099E340 /* ePocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5015B1FBC7E3F0099E340 /* ePocketTests.swift */; };
+		7CF501671FBC7E3F0099E340 /* ePocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF501661FBC7E3F0099E340 /* ePocketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF501581FBC7E3F0099E340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF5013B1FBC7E3D0099E340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF501421FBC7E3D0099E340;
+			remoteInfo = ePocket;
+		};
+		7CF501631FBC7E3F0099E340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF5013B1FBC7E3D0099E340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF501421FBC7E3D0099E340;
+			remoteInfo = ePocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CF501431FBC7E3D0099E340 /* ePocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF501461FBC7E3D0099E340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CF501481FBC7E3D0099E340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CF5014B1FBC7E3D0099E340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CF5014D1FBC7E3E0099E340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF501501FBC7E3E0099E340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CF501521FBC7E3E0099E340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF501571FBC7E3F0099E340 /* ePocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF5015B1FBC7E3F0099E340 /* ePocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePocketTests.swift; sourceTree = "<group>"; };
+		7CF5015D1FBC7E3F0099E340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF501621FBC7E3F0099E340 /* ePocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ePocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF501661FBC7E3F0099E340 /* ePocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ePocketUITests.swift; sourceTree = "<group>"; };
+		7CF501681FBC7E3F0099E340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF501401FBC7E3D0099E340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF501541FBC7E3F0099E340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF5015F1FBC7E3F0099E340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CF5013A1FBC7E3D0099E340 = {
+			isa = PBXGroup;
+			children = (
+				7CF501451FBC7E3D0099E340 /* ePocket */,
+				7CF5015A1FBC7E3F0099E340 /* ePocketTests */,
+				7CF501651FBC7E3F0099E340 /* ePocketUITests */,
+				7CF501441FBC7E3D0099E340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF501441FBC7E3D0099E340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF501431FBC7E3D0099E340 /* ePocket.app */,
+				7CF501571FBC7E3F0099E340 /* ePocketTests.xctest */,
+				7CF501621FBC7E3F0099E340 /* ePocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF501451FBC7E3D0099E340 /* ePocket */ = {
+			isa = PBXGroup;
+			children = (
+				7CF501461FBC7E3D0099E340 /* AppDelegate.swift */,
+				7CF501481FBC7E3D0099E340 /* ViewController.swift */,
+				7CF5014A1FBC7E3D0099E340 /* Main.storyboard */,
+				7CF5014D1FBC7E3E0099E340 /* Assets.xcassets */,
+				7CF5014F1FBC7E3E0099E340 /* LaunchScreen.storyboard */,
+				7CF501521FBC7E3E0099E340 /* Info.plist */,
+			);
+			path = ePocket;
+			sourceTree = "<group>";
+		};
+		7CF5015A1FBC7E3F0099E340 /* ePocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF5015B1FBC7E3F0099E340 /* ePocketTests.swift */,
+				7CF5015D1FBC7E3F0099E340 /* Info.plist */,
+			);
+			path = ePocketTests;
+			sourceTree = "<group>";
+		};
+		7CF501651FBC7E3F0099E340 /* ePocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CF501661FBC7E3F0099E340 /* ePocketUITests.swift */,
+				7CF501681FBC7E3F0099E340 /* Info.plist */,
+			);
+			path = ePocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF501421FBC7E3D0099E340 /* ePocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF5016B1FBC7E3F0099E340 /* Build configuration list for PBXNativeTarget "ePocket" */;
+			buildPhases = (
+				7CF5013F1FBC7E3D0099E340 /* Sources */,
+				7CF501401FBC7E3D0099E340 /* Frameworks */,
+				7CF501411FBC7E3D0099E340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePocket;
+			productName = ePocket;
+			productReference = 7CF501431FBC7E3D0099E340 /* ePocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CF501561FBC7E3F0099E340 /* ePocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF5016E1FBC7E3F0099E340 /* Build configuration list for PBXNativeTarget "ePocketTests" */;
+			buildPhases = (
+				7CF501531FBC7E3F0099E340 /* Sources */,
+				7CF501541FBC7E3F0099E340 /* Frameworks */,
+				7CF501551FBC7E3F0099E340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF501591FBC7E3F0099E340 /* PBXTargetDependency */,
+			);
+			name = ePocketTests;
+			productName = ePocketTests;
+			productReference = 7CF501571FBC7E3F0099E340 /* ePocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CF501611FBC7E3F0099E340 /* ePocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF501711FBC7E3F0099E340 /* Build configuration list for PBXNativeTarget "ePocketUITests" */;
+			buildPhases = (
+				7CF5015E1FBC7E3F0099E340 /* Sources */,
+				7CF5015F1FBC7E3F0099E340 /* Frameworks */,
+				7CF501601FBC7E3F0099E340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF501641FBC7E3F0099E340 /* PBXTargetDependency */,
+			);
+			name = ePocketUITests;
+			productName = ePocketUITests;
+			productReference = 7CF501621FBC7E3F0099E340 /* ePocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF5013B1FBC7E3D0099E340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Al ASAS";
+				TargetAttributes = {
+					7CF501421FBC7E3D0099E340 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CF501561FBC7E3F0099E340 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CF501421FBC7E3D0099E340;
+					};
+					7CF501611FBC7E3F0099E340 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CF501421FBC7E3D0099E340;
+					};
+				};
+			};
+			buildConfigurationList = 7CF5013E1FBC7E3D0099E340 /* Build configuration list for PBXProject "ePocket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF5013A1FBC7E3D0099E340;
+			productRefGroup = 7CF501441FBC7E3D0099E340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF501421FBC7E3D0099E340 /* ePocket */,
+				7CF501561FBC7E3F0099E340 /* ePocketTests */,
+				7CF501611FBC7E3F0099E340 /* ePocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF501411FBC7E3D0099E340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF501511FBC7E3E0099E340 /* LaunchScreen.storyboard in Resources */,
+				7CF5014E1FBC7E3E0099E340 /* Assets.xcassets in Resources */,
+				7CF5014C1FBC7E3D0099E340 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF501551FBC7E3F0099E340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF501601FBC7E3F0099E340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF5013F1FBC7E3D0099E340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF501491FBC7E3D0099E340 /* ViewController.swift in Sources */,
+				7CF501471FBC7E3D0099E340 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF501531FBC7E3F0099E340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF5015C1FBC7E3F0099E340 /* ePocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF5015E1FBC7E3F0099E340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF501671FBC7E3F0099E340 /* ePocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CF501591FBC7E3F0099E340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF501421FBC7E3D0099E340 /* ePocket */;
+			targetProxy = 7CF501581FBC7E3F0099E340 /* PBXContainerItemProxy */;
+		};
+		7CF501641FBC7E3F0099E340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF501421FBC7E3D0099E340 /* ePocket */;
+			targetProxy = 7CF501631FBC7E3F0099E340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CF5014A1FBC7E3D0099E340 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF5014B1FBC7E3D0099E340 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CF5014F1FBC7E3E0099E340 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF501501FBC7E3E0099E340 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF501691FBC7E3F0099E340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CF5016A1FBC7E3F0099E340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF5016C1FBC7E3F0099E340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ePocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-ASAS.ePocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CF5016D1FBC7E3F0099E340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ePocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-ASAS.ePocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CF5016F1FBC7E3F0099E340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ePocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-ASAS.ePocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePocket.app/ePocket";
+			};
+			name = Debug;
+		};
+		7CF501701FBC7E3F0099E340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ePocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-ASAS.ePocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ePocket.app/ePocket";
+			};
+			name = Release;
+		};
+		7CF501721FBC7E3F0099E340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ePocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-ASAS.ePocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ePocket;
+			};
+			name = Debug;
+		};
+		7CF501731FBC7E3F0099E340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ePocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AL-ASAS.ePocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ePocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF5013E1FBC7E3D0099E340 /* Build configuration list for PBXProject "ePocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF501691FBC7E3F0099E340 /* Debug */,
+				7CF5016A1FBC7E3F0099E340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF5016B1FBC7E3F0099E340 /* Build configuration list for PBXNativeTarget "ePocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF5016C1FBC7E3F0099E340 /* Debug */,
+				7CF5016D1FBC7E3F0099E340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF5016E1FBC7E3F0099E340 /* Build configuration list for PBXNativeTarget "ePocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF5016F1FBC7E3F0099E340 /* Debug */,
+				7CF501701FBC7E3F0099E340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF501711FBC7E3F0099E340 /* Build configuration list for PBXNativeTarget "ePocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF501721FBC7E3F0099E340 /* Debug */,
+				7CF501731FBC7E3F0099E340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF5013B1FBC7E3D0099E340 /* Project object */;
+}
